@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Navigation Menu</title>
+<style>
+  /* Default styles for navigation menu */
+  .nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .nav li {
+      display: block; /* Display menu items vertically */
+      margin-bottom: 10px; /* Add spacing between menu items */
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Services</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+
+</body>
+</html>
